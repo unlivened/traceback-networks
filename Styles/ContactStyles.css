@@ -1,0 +1,84 @@
+/* FORM BACKGROUND */
+.content-top {
+  padding: 6rem 0;
+  background-image: url("../Images/contact-us-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: auto;
+}
+/* Style details next to form */
+.content-details > h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.content-details h3 {
+  margin: 2rem 0 1rem;
+}
+.content-icon {
+  margin-right: 0.6rem;
+  color: #f58220;
+}
+.content-details a {
+  color: white;
+}
+/* Styles for the Countdown Clock */
+div#countdown {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+div#countdown span {
+  display: inline-block;
+  padding: 15px;
+  font-family: segment14, sans-serif;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  width: 90px;
+}
+/* Style form */
+.content-form {
+  padding: 2rem;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.form-control,
+.form-control:focus {
+  background-color: transparent;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+  color: white;
+}
+.form-country-select:focus {
+  background-color: #123456;
+}
+.button-submit,
+.button-submit:hover {
+  background-color: #f58220;
+  color: white;
+  border-radius: 0;
+}
+/* Content below form */
+.content-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.content-location {
+  margin-bottom: 1rem;
+}
+.content-container > h2 {
+  margin-bottom: 2rem;
+}
+.content-directions-link,
+.form-checkbox-link {
+  color: #f58220;
+}
+.content-directions-link:hover,
+.form-checkbox-link:hover {
+  text-decoration: none;
+  color: #2296dd;
+}
+.modal-body iframe {
+  width: 100%;
+}

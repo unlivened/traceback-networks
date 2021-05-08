@@ -1,0 +1,58 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+/* Common Header Styles */
+#logo {
+  width: 2rem;
+}
+.navbar {
+  background-color: rgb(18, 52, 86, 0.2);
+}
+.navbar-brand {
+  font-family: "Major Mono Display", monospace;
+}
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+}
+.nav-link:active {
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    background-color: #123456;
+  }
+}
+/* Common Body Styles */
+main {
+  font-family: "Encode Sans", sans-serif;
+}
+.content-top {
+  padding: 6rem 0;
+  background-image: url("../Images/mountain-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+/* Common Footer Styles */
+footer {
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #2296dd;
+}
+#footer-social-icons > a {
+  padding-left: 0.6%;
+  color: #2296dd;
+}
+#footer-social-icons > a:hover {
+  color: black;
+}

@@ -1,0 +1,94 @@
+/* Body styles */
+body {
+  background-image: url("../Images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body > .container {
+  padding: 1.5rem 0.9375rem 0;
+}
+main {
+  margin-top: 180px;
+
+  color: white;
+}
+main > h1 {
+  font-weight: 300;
+}
+main > p {
+  font-weight: 100;
+  opacity: 70%;
+}
+
+.text-responsive-h1 {
+  font-size: calc(100% + 1.2vw + 1.2vh);
+}
+
+.text-responsive-p {
+  font-size: calc(100% + 0.1vw + 0.1vh);
+}
+
+#findOutMoreButton {
+  border: none;
+  background-color: #f58220;
+  border-radius: 0;
+  color: white;
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  width: 12rem;
+}
+#findOutMoreButton:hover {
+  background-color: white;
+  color: #f58220;
+}
+
+/* Typing Animation Styles */
+.typingLocation span.typed {
+  font-weight: normal;
+  color: white;
+}
+.typingLocation span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.typingLocation .typing {
+  animation: none;
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+/* Footer Style */
+.index-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

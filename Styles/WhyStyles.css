@@ -1,0 +1,70 @@
+/* AWARD ROW */
+.content-award{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content-award-inner{
+  padding: 1rem;
+}
+/*Different height for different image (award) size*/
+.content-award-small{ 
+  max-height: 100px;
+  filter: grayscale(100%);
+}
+/*All images (award) are in black/white until hovered*/
+.content-award-large{ 
+  max-height: 40px;
+  filter: grayscale(100%);
+}
+/*On hover, image has color*/
+.content-award-small:hover,.content-award-large:hover{ 
+  filter: grayscale(0%);
+}
+/* FACTS ROW */
+.content-box-inner {
+  padding: 3rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #535353;
+}
+.content-box{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content-box-row{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.content-box-inner:hover {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+.content-box-inner > h5 {
+  font-weight: 400;
+}
+.content-box-inner > p {
+  padding-top: 1rem;
+  font-size: 12px;
+}
+.content-need-background{
+  background-color: #123456;
+  color: white;
+}
+.content-customer{
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+}
+/* CAROUSEL */
+.carousel-item{
+  padding: 2rem 0;
+}
+.carousel-item-inner{
+  padding-bottom: 1rem;
+}
+.carousel-link{
+  color: #f58220;
+}
+.carousel-link:hover {
+  text-decoration: none;
+  color: #f58220;
+  opacity: 95%;
+}

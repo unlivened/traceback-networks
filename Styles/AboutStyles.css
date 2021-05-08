@@ -1,0 +1,32 @@
+/* "Mask" over image */
+.clip-circle {
+  clip-path: circle(60px at center);
+  max-height: 140px;
+}
+/* Style padding */
+.content-ceo,
+.content-team,
+.content-list {
+  padding: 2rem 0;
+}
+.content-company {
+  padding: 3rem 0 2rem 0;
+}
+.content-team-inner {
+  margin-top: 1rem;
+}
+/* Style list */
+.content-list {
+  list-style: "> ";
+  list-style-position: inside;
+}
+.content-red {
+  color: red;
+}
+/* Style social icons for team members */
+.content-social {
+  color: black;
+}
+.content-social:hover {
+  color: #f58220;
+}
