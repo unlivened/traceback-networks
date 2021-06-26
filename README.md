@@ -1,5 +1,5 @@
 # Traceback Networks Website
-Static cybersecurity website I created for the Front-End Dev module @ Singapore Polytechnic :D
+Static cybersecurity website I created in partial fufillment of the requirements of the Front-End Dev module :D
 
 The objectives of this project were as follows:
 - Use HTML5 and CSS3 scripting to create web pages.
